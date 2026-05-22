@@ -1,0 +1,31 @@
+# Shape a Note With an Envelope
+
+## Lesson Goal
+
+Add attack, decay, and an octave harmonic.
+
+## What to Notice
+
+This is the first step from pure math sound toward musical sound. Timbre and articulation matter.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/03_envelope/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/03_envelope/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/03_envelope/notebook.py
+```
+
+## Feedback Lens
+
+Ask whether the student can explain why the same pitch can sound more or less note-like.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

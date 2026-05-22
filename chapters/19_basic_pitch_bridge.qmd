@@ -1,0 +1,31 @@
+# Bridge to Basic Pitch
+
+## Lesson Goal
+
+Show where a real AMT model fits into the pipeline.
+
+## What to Notice
+
+This notebook marks the transition from toy methods to real model integration.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/19_basic_pitch_bridge/notebook.py)
+- Browser notebook: local-first for this lesson because it uses upload, notation, audio, or model dependencies that are not reliable in WASM.
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/19_basic_pitch_bridge/notebook.py
+```
+
+## Feedback Lens
+
+Assess whether the student can explain dependency, runtime, and deployment costs.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

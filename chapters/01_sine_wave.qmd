@@ -1,0 +1,31 @@
+# Make One Sound
+
+## Lesson Goal
+
+Generate a sine wave, write it as audio, and display it in Marimo.
+
+## What to Notice
+
+A notebook can be a small reproducible instrument: code creates an artifact and the browser immediately makes it inspectable.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/01_sine_wave/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/01_sine_wave/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/01_sine_wave/notebook.py
+```
+
+## Feedback Lens
+
+Look for whether students can point to the exact variables that define the sound: sample rate, frequency, duration, and amplitude.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

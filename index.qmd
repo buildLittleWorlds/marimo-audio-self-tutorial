@@ -1,0 +1,45 @@
+# Marimo Audio Self-Tutorial
+
+This book is a guided companion to the Marimo notebooks in this repository. The
+notebooks are deliberately small, but the chapters give the teaching frame:
+what each notebook is trying to show, what students should notice, and how an
+instructor might respond to the work.
+
+The course moves from one generated sound to a simplified version of Annabelle's
+music-to-sheet-music workflow:
+
+- generate and hear audio
+- add controls and reactive cells
+- visualize waveforms and spectra
+- detect pitches and note starts
+- represent transcription as inspectable tables
+- render notation
+- compare output against ground truth
+- think about deployment as a public app
+
+## Two Ways to Use the Materials
+
+**Run locally.** Students who know how to use a terminal can clone the repo and
+open any notebook with Marimo:
+
+```bash
+uv sync
+uv run marimo edit notebooks/01_sine_wave/notebook.py
+```
+
+**Use browser notebooks where available.** Lightweight notebooks are also
+exported as Marimo WASM pages. Those run in the browser from GitHub Pages. Later
+notebooks use heavier audio and notation packages, so the book treats those as
+local-first or Hugging Face Space candidates.
+
+## Instructor Use
+
+Use each chapter as a feedback guide. The point is not just whether the code
+runs; the point is whether the student can explain the pipeline:
+
+- what data enters this step
+- what transformation happens
+- what output is inspectable
+- what limitation or failure mode appears
+- what the next design move should be
+

@@ -1,0 +1,31 @@
+# Note Events as a Table
+
+## Lesson Goal
+
+Represent transcription output as an inspectable table.
+
+## What to Notice
+
+Tables are the debugging bridge between raw audio and notation.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/11_note_event_table/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/11_note_event_table/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/11_note_event_table/notebook.py
+```
+
+## Feedback Lens
+
+Look for whether the student can read a note-event table before jumping to sheet music.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

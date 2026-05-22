@@ -1,0 +1,31 @@
+# See Frequencies With an FFT
+
+## Lesson Goal
+
+Inspect a signal in the frequency domain.
+
+## What to Notice
+
+This introduces the idea that pitch detection often starts by asking where energy is concentrated.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/07_spectrum_fft/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/07_spectrum_fft/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/07_spectrum_fft/notebook.py
+```
+
+## Feedback Lens
+
+Check whether the student can identify fundamental and harmonic peaks.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

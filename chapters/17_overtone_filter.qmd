@@ -1,0 +1,31 @@
+# Filter Octave Overtones
+
+## Lesson Goal
+
+Remove phantom notes caused by octave harmonics.
+
+## What to Notice
+
+This is a concrete architectural fix for a concrete failure mode.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/17_overtone_filter/notebook.py)
+- Browser notebook: local-first for this lesson because it uses upload, notation, audio, or model dependencies that are not reliable in WASM.
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/17_overtone_filter/notebook.py
+```
+
+## Feedback Lens
+
+Ask whether the student can describe the wall, the move, the cost, and the next test.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+.quarto/
+_site/
+_book/
+book/notebooks/
+notebooks/*/__marimo__/
+
+
+/.quarto/
+**/*.quarto_ipynb

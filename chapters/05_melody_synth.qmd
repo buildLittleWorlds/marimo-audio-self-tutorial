@@ -1,0 +1,31 @@
+# Synthesize a Melody
+
+## Lesson Goal
+
+Represent melodies as lists of note-duration pairs.
+
+## What to Notice
+
+A melody becomes data. That data structure is later reused for ground truth.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/05_melody_synth/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/05_melody_synth/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/05_melody_synth/notebook.py
+```
+
+## Feedback Lens
+
+Assess whether the student can modify the list intentionally rather than treating it as magic.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

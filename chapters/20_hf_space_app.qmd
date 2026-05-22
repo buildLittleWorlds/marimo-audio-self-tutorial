@@ -1,0 +1,31 @@
+# A Hugging Face Space-Shaped Notebook
+
+## Lesson Goal
+
+Assemble controls, pipeline output, report, and tables into an app pattern.
+
+## What to Notice
+
+This is the capstone architecture: source, transformation, evaluation, and public interface.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/20_hf_space_app/notebook.py)
+- Browser notebook: local-first for this lesson because it uses upload, notation, audio, or model dependencies that are not reliable in WASM.
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/20_hf_space_app/notebook.py
+```
+
+## Feedback Lens
+
+Look for whether the student can explain how to turn an experiment into a usable demo.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

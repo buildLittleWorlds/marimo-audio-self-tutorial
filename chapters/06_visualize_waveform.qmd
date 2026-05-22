@@ -1,0 +1,31 @@
+# Visualize a Waveform
+
+## Lesson Goal
+
+Plot amplitude over time.
+
+## What to Notice
+
+Students should learn to pair listening with visual inspection.
+
+## Work With the Notebook
+
+- [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/06_visualize_waveform/notebook.py)
+- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/06_visualize_waveform/)
+
+Run locally:
+
+```bash
+uv run marimo edit notebooks/06_visualize_waveform/notebook.py
+```
+
+## Feedback Lens
+
+Ask what the plot makes visible that listening alone does not.
+
+## Instructor Notes
+
+Use this lesson as a small checkpoint. Before asking students to add features,
+ask them to name the input, the transformation, the output, and the current
+limitation. That habit will matter more in later transcription notebooks than
+any one line of code.

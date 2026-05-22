@@ -1,0 +1,52 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Marimo Audio Self-Tutorial"
+  subtitle: "From sine waves to music transcription notebooks"
+  author: "Daniel Plate"
+  repo-url: "https://github.com/buildLittleWorlds/marimo-audio-self-tutorial"
+  repo-actions: [source, issue]
+  site-url: "https://buildlittleworlds.github.io/marimo-audio-self-tutorial/"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: "Part 1 - Marimo Basics and Synthetic Sound"
+      chapters:
+        - chapters/01_sine_wave.qmd
+        - chapters/02_wave_controls.qmd
+        - chapters/03_envelope.qmd
+        - chapters/04_note_names.qmd
+        - chapters/05_melody_synth.qmd
+    - part: "Part 2 - Audio Visualization and Toy Analysis"
+      chapters:
+        - chapters/06_visualize_waveform.qmd
+        - chapters/07_spectrum_fft.qmd
+        - chapters/08_detect_pitch_fft.qmd
+        - chapters/09_upload_audio.qmd
+        - chapters/10_onset_energy.qmd
+    - part: "Part 3 - Transcription and Notation as a Pipeline"
+      chapters:
+        - chapters/11_note_event_table.qmd
+        - chapters/12_simple_transcriber.qmd
+        - chapters/13_music21_score.qmd
+        - chapters/14_verovio_svg.qmd
+    - part: "Part 4 - Evaluation, Fixes, Models, and Deployment"
+      chapters:
+        - chapters/15_compare_ground_truth.qmd
+        - chapters/16_report_card.qmd
+        - chapters/17_overtone_filter.qmd
+        - chapters/18_tempo_quantization.qmd
+        - chapters/19_basic_pitch_bridge.qmd
+        - chapters/20_hf_space_app.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto

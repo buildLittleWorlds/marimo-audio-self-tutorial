@@ -1,0 +1,22 @@
+[project]
+name = "marimo-audio-self-tutorial"
+version = "0.1.0"
+description = "A Marimo and Quarto textbook for learning audio analysis and music transcription notebooks."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "marimo>=0.23.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.8.0",
+    "pandas>=2.0.0",
+    "soundfile>=0.12.0",
+    "librosa>=0.10.0",
+    "music21>=9.0.0",
+    "verovio>=6.0.0",
+    "basic-pitch>=0.4.0",
+    "onnxruntime>=1.15.0",
+]
+
+[tool.uv]
+package = false
+
