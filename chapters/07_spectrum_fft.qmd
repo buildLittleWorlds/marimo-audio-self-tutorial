@@ -11,7 +11,7 @@ This introduces the idea that pitch detection often starts by asking where energ
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/07_spectrum_fft/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/07_spectrum_fft/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/07_spectrum_fft/)
 
 Run locally:
 

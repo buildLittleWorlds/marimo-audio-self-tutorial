@@ -11,7 +11,7 @@ The method is intentionally fragile, which makes it useful for teaching model li
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/08_detect_pitch_fft/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/08_detect_pitch_fft/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/08_detect_pitch_fft/)
 
 Run locally:
 

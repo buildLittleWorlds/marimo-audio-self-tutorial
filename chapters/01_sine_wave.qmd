@@ -11,7 +11,7 @@ A notebook can be a small reproducible instrument: code creates an artifact and 
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/01_sine_wave/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/01_sine_wave/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/01_sine_wave/)
 
 Run locally:
 

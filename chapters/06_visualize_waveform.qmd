@@ -11,7 +11,7 @@ Students should learn to pair listening with visual inspection.
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/06_visualize_waveform/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/06_visualize_waveform/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/06_visualize_waveform/)
 
 Run locally:
 

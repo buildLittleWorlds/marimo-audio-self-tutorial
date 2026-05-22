@@ -37,7 +37,7 @@ Install [Quarto](https://quarto.org/), then run:
 quarto render
 ```
 
-To export the lightweight notebooks to browser-runnable Marimo WASM pages after
+To export the lightweight notebooks to editable Marimo WASM pages after
 rendering the book:
 
 ```bash
@@ -52,4 +52,3 @@ The book moves gradually from simple signals to transcription pipelines:
 2. waveform and frequency analysis
 3. onset detection and toy transcription
 4. notation, report cards, and deployment patterns
-

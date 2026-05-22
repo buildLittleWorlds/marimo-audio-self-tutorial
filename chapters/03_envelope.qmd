@@ -11,7 +11,7 @@ This is the first step from pure math sound toward musical sound. Timbre and art
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/03_envelope/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/03_envelope/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/03_envelope/)
 
 Run locally:
 

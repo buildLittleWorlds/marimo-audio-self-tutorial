@@ -50,7 +50,7 @@ LESSONS = [
 def chapter_text(slug: str, title: str, summary: str, notice: str, feedback: str) -> str:
     source_url = f"{REPO}/blob/main/notebooks/{slug}/notebook.py"
     wasm_line = (
-        f"- [Run the browser notebook]({SITE}/notebooks/{slug}/)"
+        f"- [Open the editable browser notebook]({SITE}/notebooks/{slug}/)"
         if slug in WASM
         else "- Browser notebook: local-first for this lesson because it uses upload, notation, audio, or model dependencies that are not reliable in WASM."
     )
@@ -102,4 +102,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -28,7 +28,7 @@ uv run marimo edit notebooks/01_sine_wave/notebook.py
 ```
 
 **Use browser notebooks where available.** Lightweight notebooks are also
-exported as Marimo WASM pages. Those run in the browser from GitHub Pages. Later
+exported as editable Marimo WASM pages. Those run in the browser from GitHub Pages. Later
 notebooks use heavier audio and notation packages, so the book treats those as
 local-first or Hugging Face Space candidates.
 
@@ -42,4 +42,3 @@ runs; the point is whether the student can explain the pipeline:
 - what output is inspectable
 - what limitation or failure mode appears
 - what the next design move should be
-

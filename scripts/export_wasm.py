@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export lightweight Marimo notebooks as browser-runnable WASM pages."""
+"""Export lightweight Marimo notebooks as editable browser WASM pages."""
 
 from __future__ import annotations
 
@@ -38,8 +38,7 @@ def export_notebook(repo_root: Path, output_root: Path, slug: str) -> None:
         "-o",
         str(destination),
         "--mode",
-        "run",
-        "--show-code",
+        "edit",
         "--force",
     ]
     print(f"Exporting {slug} -> {destination}")
@@ -67,4 +66,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

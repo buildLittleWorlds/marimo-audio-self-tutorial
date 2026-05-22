@@ -11,7 +11,7 @@ This is a complete miniature transcription pipeline with intentionally unrealist
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/12_simple_transcriber/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/12_simple_transcriber/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/12_simple_transcriber/)
 
 Run locally:
 

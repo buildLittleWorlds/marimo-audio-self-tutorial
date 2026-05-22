@@ -11,7 +11,7 @@ Controls belong in one cell, and their `.value` is read later. This is the basic
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/02_wave_controls/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/02_wave_controls/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/02_wave_controls/)
 
 Run locally:
 

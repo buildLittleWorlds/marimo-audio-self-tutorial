@@ -11,7 +11,7 @@ A melody becomes data. That data structure is later reused for ground truth.
 ## Work With the Notebook
 
 - [Open the notebook source](https://github.com/buildLittleWorlds/marimo-audio-self-tutorial/blob/main/notebooks/05_melody_synth/notebook.py)
-- [Run the browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/05_melody_synth/)
+- [Open the editable browser notebook](https://buildlittleworlds.github.io/marimo-audio-self-tutorial/notebooks/05_melody_synth/)
 
 Run locally:
 
